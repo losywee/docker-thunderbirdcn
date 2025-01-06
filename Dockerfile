@@ -28,7 +28,7 @@ RUN \
         # Icons used by folder/file selection window (when saving as).
         adwaita-icon-theme \
         # A font is needed.
-        font-dejavu
+        font-dejavu wqy-zenhei
 
 # Generate and install favicons.
 RUN \
