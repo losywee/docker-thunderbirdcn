@@ -68,6 +68,7 @@ Where:
 
 Browse to `http://your-host-ip:5800` to access the Thunderbird GUI.
 
+
 ## Usage
 
 ```shell
@@ -78,6 +79,9 @@ docker run [-d] \
     [-p <HOST_PORT>:<CONTAINER_PORT>]... \
     jlesage/thunderbird
 ```
+Chinese Font: 
+	
+	Environment Variable: ENABLE_CJK_FONT=1
 
 | Parameter | Description |
 |-----------|-------------|
